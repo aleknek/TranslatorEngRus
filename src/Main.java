@@ -13,6 +13,11 @@ public class Main {
         dictionary.setWords(new Word("family", "семья"));
         dictionary.setWords(new Word("teacher", "учитель"));
         dictionary.setWords(new Word("school", "школа"));
+        dictionary.setWords(new Word("profit", "прибыль"));
+        dictionary.setWords(new Word("table", "стол"));
+        dictionary.setWords(new Word("weather", "погода"));
+        dictionary.setWords(new Word("custom", "маможня"));
+        dictionary.setWords(new Word("shop", "магазин"));
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите слово (для выхода напишите 'Exit'): ");
